@@ -4,6 +4,7 @@ import CartProvider from "./store/CartProvider";
 import { useState } from "react";
 import Cart from "./components/Cart/Cart";
 function App() {
+  console.log("ari is submitted");
   const [cartIshown, setCartIsShown] = useState(false);
   const showCartHandler = () => {
     setCartIsShown(true);
